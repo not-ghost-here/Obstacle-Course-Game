@@ -16,7 +16,7 @@ This project is primarily a **learning project** and serves as my starting point
 
 * **Unreal Engine 5.6**
 * **Blueprints**
-* **C++** *(if applicable)*
+* **C++**
 * **Git & GitHub**
 
 ## ✨ Features
