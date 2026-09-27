@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ObstacleCourseGameModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+521d5c5e19737114054c003be510c5a26f733a04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7132db895f9583ef42429216d12675cc500c91c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ObstacleCourseGameModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ObstacleCourseGameModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
