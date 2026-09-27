@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ObstacleCourseGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ObstacleCourseGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ObstacleCourseGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ObstacleCourseGame">
+      <UniqueIdentifier>{48C5167C-1A43-307A-9EF9-1BE1315E944B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGame.Build.cs">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGame.cpp">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGame.h">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGameCharacter.cpp">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGameCharacter.h">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGameGameMode.cpp">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGameGameMode.h">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGamePlayerController.cpp">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGamePlayerController.h">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Combat">
+      <UniqueIdentifier>{FA021E9E-A382-3CDA-A59E-A23D23829336}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Combat\AI">
+      <UniqueIdentifier>{9AF74517-E551-3425-8CCD-5C9D106F1DDD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Combat\Animation">
+      <UniqueIdentifier>{9941F33A-196D-3EEC-B3F4-F04FF5E7A88D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{E1ABD16A-7FE4-3647-B510-ED81F363F21D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{18E6F8BF-EF72-3876-AEE9-77BE1E3981B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Combat\UI">
+      <UniqueIdentifier>{072CEF4C-EE3D-3EDE-902B-FA31FA2746D7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Platforming">
+      <UniqueIdentifier>{D3764CA6-8FA0-3E36-9FB6-733861982E0A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_Platforming\Animation">
+      <UniqueIdentifier>{6515C67A-AC43-3E65-9D20-FBECECF2F037}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\ObstacleCourseGame\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_SideScrolling">
+      <UniqueIdentifier>{FAA98A0F-2D17-396B-983F-4FA1E01448CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{FDE5317B-9F1E-3781-B572-73D0E2D9AD86}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{50AF561F-38DD-3388-8CF7-81C28836E891}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{3EC1CCC9-0739-3AC8-94F8-EB879EC5A2CB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstacleCourseGame\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{CAB850D1-4CC1-3356-996F-5D4904078627}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\ObstacleCourseGame\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

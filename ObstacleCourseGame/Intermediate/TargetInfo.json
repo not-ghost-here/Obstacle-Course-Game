@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ObstacleCourseGame",
+			"Path": "..\\Source\\ObstacleCourseGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ObstacleCourseGameEditor",
+			"Path": "..\\Source\\ObstacleCourseGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
