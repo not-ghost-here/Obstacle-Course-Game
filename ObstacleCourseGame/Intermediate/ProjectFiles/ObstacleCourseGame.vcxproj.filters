@@ -33,6 +33,12 @@
     <Filter Include="Source\ObstacleCourseGame">
       <UniqueIdentifier>{48C5167C-1A43-307A-9EF9-1BE1315E944B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\MovingPlatform.cpp">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\MovingPlatform.h">
+      <Filter>Source\ObstacleCourseGame</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGame.Build.cs">
       <Filter>Source\ObstacleCourseGame</Filter>
     </None>
