@@ -252,11 +252,16 @@
     <None Include="..\..\ObstacleCourseGame.uproject"/>
     <None Include="..\..\Source\ObstacleCourseGame.Target.cs"/>
     <None Include="..\..\Source\ObstacleCourseGameEditor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\ObstacleCourseGame\MovingPlatform.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleCourseGame\MovingPlatform.h"/>
     <None Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGame.Build.cs"/>
     <ClCompile Include="..\..\Source\ObstacleCourseGame\ObstacleCourseGame.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
