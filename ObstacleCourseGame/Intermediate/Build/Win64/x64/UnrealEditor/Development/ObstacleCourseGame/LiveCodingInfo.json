@@ -25,6 +25,8 @@
 		],
 		"Module.ObstacleCourseGame.2.cpp.obj": [
 			"EnvQueryContext_Player.gen.cpp.obj",
+			"MovingPlatform.gen.cpp.obj",
+			"ObstacleCourseGame.init.gen.cpp.obj",
 			"ObstacleCourseGameCharacter.gen.cpp.obj",
 			"ObstacleCourseGameGameMode.gen.cpp.obj",
 			"ObstacleCourseGamePlayerController.gen.cpp.obj",
@@ -44,6 +46,8 @@
 			"SideScrollingSoftPlatform.gen.cpp.obj",
 			"SideScrollingStateTreeUtility.gen.cpp.obj",
 			"SideScrollingUI.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"MovingPlatform.cpp.obj",
 			"ObstacleCourseGame.cpp.obj",
 			"ObstacleCourseGameCharacter.cpp.obj",
 			"ObstacleCourseGameGameMode.cpp.obj",
@@ -69,11 +73,7 @@
 			"CombatDamageable.cpp.obj",
 			"CombatLifeBar.cpp.obj",
 			"AnimNotify_EndDash.cpp.obj",
-			"PlatformingCharacter.cpp.obj",
-			"MovingPlatform.gen.cpp.obj",
-			"ObstacleCourseGame.init.gen.cpp.obj",
-			"PerModuleInline.gen.cpp.obj",
-			"MovingPlatform.cpp.obj"
+			"PlatformingCharacter.cpp.obj"
 		],
 		"Module.ObstacleCourseGame.3.cpp.obj": [
 			"PlatformingGameMode.cpp.obj",
